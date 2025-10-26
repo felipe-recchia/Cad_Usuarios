@@ -1,7 +1,7 @@
 # User Registration System
 
 ## Challenge Objective
-This project aims to create a **user registration system** in Java, applying **Object-Oriented Programming (OOP)** concepts.  
+This project aims to create a **User Registration System** in Java, applying **Object-Oriented Programming (OOP)** concepts.  
 The system allows you to add, list, edit, and delete users, with data persistence in a text file (`usuarios.txt`).  
 
 This challenge is part of a Java study portfolio and will be expanded in the future with new features.
@@ -29,18 +29,19 @@ This challenge is part of a Java study portfolio and will be expanded in the fut
 
 ## 📂 Project Structure
 Cad_Usuarios/
-│
-├─ src/
-│ └─ cadastro/
-│ ├─ Main.java
-│ ├─ model/
-│ │ └─ Usuario.java
-│ ├─ service/
-│ │ └─ UsuarioService.java
-│ └─ repository/
-│ └─ UsuarioRepository.java
-└─ data/
-└─ usuarios.txt (file created automatically)
+|
+|-- src/
+|    |-- cadastro/
+|         |-- main.java
+|         |-- model/
+|         |    |-- Usuario.java
+|         |-- service/
+|         |    |-- UsuarioService.java
+|         |-- repository/
+|              |-- UsuarioRepository.java
+|
+|-- data/
+     |-- usuarios.txt   (created automaticaly)
 
 
 ---
@@ -68,5 +69,5 @@ Cad_Usuarios/
 
 ---
 
-## 📚 Conclusion
+## Conclusion
 This project demonstrates the practical application of **OOP in Java** and serves as a foundation for future improvements, keeping the code **modular, organized, and easy to maintain**.
